@@ -1,14 +1,20 @@
 <!DOCTYPE HTML>
 <head>
     <title> To-do List </title>
+    <link rel="stylesheet" href="todo_list.css">
 </head>
 
 <body>
     
-    <h1> Enter your tasks </h1>
-    <input type="text"> 
-    <button>Add</button>
-    <button>Clear All</button>
-    <p> You have n tasks to complete </p>
+    <div class = "todoList">
+    <h1> To-Do List </h1>
+    <input id="input" type="text" placeholder="Enter your tasks here..."> 
+    <button id="addBtn">Add</button>
+    <button id="clearBtn">Clear All</button>
+    <p id="counter"></p>
+    <ul id="todo"></ul>
+    </div>
+
+    <script src="todo_list.js"></script>
 
 </body>

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6baed6;
+    color: #6baed6;
+}
+
+.todoList {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#addBtn {
+    background-color: #6baed6;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #1783c1;
+    padding: 8px;
+    margin: 4px;
+    font-size:medium;
+}
+
+#addBtn:hover{
+    background-color: #1783c1;
+    transition: 0.2s;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+#clearBtn {
+    background-color: #ef5555;
+    color:#ffffff;
+    border-radius: 5px;          
+    border-color: #f72a2a;    
+    padding: 8px;
+    margin: 4px;     
+    font-size: medium;
+}
+
+#clearBtn:hover{
+    background-color: #f72a2a;
+    transition: 0.2s;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+#input {
+    border-color: #dee4e7;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 4px;
+    font-size: medium;
+}
+
+#input:hover{
+    border-color: #ababab;
+}
