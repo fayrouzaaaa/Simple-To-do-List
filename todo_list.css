@@ -60,3 +60,39 @@ body {
 #input:hover{
     border-color: #ababab;
 }
+
+.checkBtn {
+    padding: 4px;
+    margin-left: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.removeBtn{
+    padding: 4px;
+    margin: 4px;
+    border: none;
+    background-color: transparent;
+}
+
+.checkIcon {
+    color:#63da6d;
+}
+
+.checkIcon:hover {
+    color: #2baa36;;
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+.removeIcon:hover {
+    color:#f72a2a;
+    cursor: pointer;
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+.removeIcon {
+    color:#ef5555;
+}
