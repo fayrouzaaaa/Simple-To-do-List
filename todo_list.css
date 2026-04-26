@@ -96,3 +96,9 @@ body {
 .removeIcon {
     color:#ef5555;
 }
+
+.checked {
+    
+    text-decoration: line-through;
+    color: #9fb9c8;
+}
